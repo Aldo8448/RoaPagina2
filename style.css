@@ -1,0 +1,195 @@
+h1 {
+    font-size: 100px;
+    color: #6E2C00;
+}
+
+h2 {
+    
+    font-size: 50px;
+    color: #ECF0F1;
+    background-color: #784212;
+   }
+
+h3 {
+
+	font-size: 30px;
+
+	color: #CA6F1E;
+   }
+h4 {
+    color: #CA6F1E;
+}
+
+p {
+   font-size: 20px;
+   text-align: justify, center;
+   color: #6E2C00;
+  }
+
+#cuerpo1 {
+    width: auto;
+    height: auto;
+
+}
+
+#titulo {
+    background-color: white;
+       text-align: center;
+       width: auto;
+       height: auto;
+      }
+
+ #introduccion { 
+
+    text-align: center;
+   }
+
+#enlaces { 
+
+    background:  #ECF0F1 ;
+   float: left;
+   text-align: auto;
+   width: 100%;
+ }
+
+ #enfin {
+    background: #ECF0F1 ;
+    text-align: center; 
+    width: 100%;
+ }
+ #enfin2 {
+    background: #ECF0F1 ;
+    text-align: center; 
+    width: 100%;
+}
+#piepagina {
+    border-radius: 5%;
+    border-collapse: collapse;
+    font-size: 20px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: inline-flex;
+    float: right;
+
+ }
+#fotopie {
+    width: 90%;
+    text-align: right;
+    }
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 3px solid #ddd;
+            background-color: #f2f2f2;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+  .galeria-contenedor{
+            width: 100%;
+            height: 50%;
+            overflow: hidden; /* Oculta las imágenes que salen del contenedor */
+            background-color:;
+        }
+
+        /* Estilo para el contenedor de las imágenes */
+        .galeria {
+            display: flex;
+            animation: scroll 30s linear infinite; /* Desplazamiento infinito */
+        }
+
+        /* Estilo de las imágenes */
+        .galeria img {
+            width: 300px;
+            height: 250px;
+            margin-right: 10px; /* Espacio entre imágenes */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animación de desplazamiento infinito */
+        @keyframes scroll {
+            0% {
+                transform: translateX(0); /* Comienza en la posición inicial */
+            }
+            50% {
+                transform: translateX(-50%); /* Se mueve a la mitad */
+            }
+            100% {
+                transform: translateX(-100%); /* Al final, mueve todas las imágenes fuera de la pantalla */
+            }
+        }
+#formulario{
+    background-color:  #784212;
+    font-family: times new roman;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 80%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+                    }
+        button {
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color:#a9cce3;
+            color: black;
+            border-color: white;
+            cursor: pointer;
+            border-radius: 4px;
+            width: 100%;
+            font-family: times new roman;
+            font-size: 20px;
+        }
+        button:hover {
+            background-color: #af601a;
+        }
+       nav {
+            background-color:#784212 ;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 25px;
+            border-color: white;
+
+        }
+        nav a:hover {
+            background-color: #af601a;
+            padding: 5px 10px;
+        }
+        .mensaje {
+            background-color: #f4f4f9;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            display: none;
+            margin-top: 20px;
+            font-size: 30px;
+            color: red;
+            text-align: center;
+        }
